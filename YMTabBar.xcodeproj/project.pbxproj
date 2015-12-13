@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAEB024A1C1D986800662D9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB02491C1D986800662D9E /* AppDelegate.swift */; };
+		CAEB024C1C1D986800662D9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB024B1C1D986800662D9E /* ViewController.swift */; };
+		CAEB024F1C1D986800662D9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEB024D1C1D986800662D9E /* Main.storyboard */; };
+		CAEB02511C1D986800662D9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAEB02501C1D986800662D9E /* Assets.xcassets */; };
+		CAEB02541C1D986800662D9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEB02521C1D986800662D9E /* LaunchScreen.storyboard */; };
+		CAEB025F1C1D986800662D9E /* YMTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB025E1C1D986800662D9E /* YMTabBarTests.swift */; };
+		CAEB026A1C1D986800662D9E /* YMTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB02691C1D986800662D9E /* YMTabBarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAEB025B1C1D986800662D9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAEB023E1C1D986800662D9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAEB02451C1D986800662D9E;
+			remoteInfo = YMTabBar;
+		};
+		CAEB02661C1D986800662D9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAEB023E1C1D986800662D9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAEB02451C1D986800662D9E;
+			remoteInfo = YMTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAEB02461C1D986800662D9E /* YMTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEB02491C1D986800662D9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAEB024B1C1D986800662D9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAEB024E1C1D986800662D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAEB02501C1D986800662D9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAEB02531C1D986800662D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAEB02551C1D986800662D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAEB025A1C1D986800662D9E /* YMTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEB025E1C1D986800662D9E /* YMTabBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMTabBarTests.swift; sourceTree = "<group>"; };
+		CAEB02601C1D986800662D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAEB02651C1D986800662D9E /* YMTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEB02691C1D986800662D9E /* YMTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMTabBarUITests.swift; sourceTree = "<group>"; };
+		CAEB026B1C1D986800662D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAEB02431C1D986800662D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEB02571C1D986800662D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEB02621C1D986800662D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAEB023D1C1D986800662D9E = {
+			isa = PBXGroup;
+			children = (
+				CAEB02481C1D986800662D9E /* YMTabBar */,
+				CAEB025D1C1D986800662D9E /* YMTabBarTests */,
+				CAEB02681C1D986800662D9E /* YMTabBarUITests */,
+				CAEB02471C1D986800662D9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAEB02471C1D986800662D9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAEB02461C1D986800662D9E /* YMTabBar.app */,
+				CAEB025A1C1D986800662D9E /* YMTabBarTests.xctest */,
+				CAEB02651C1D986800662D9E /* YMTabBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAEB02481C1D986800662D9E /* YMTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CAEB02491C1D986800662D9E /* AppDelegate.swift */,
+				CAEB024B1C1D986800662D9E /* ViewController.swift */,
+				CAEB024D1C1D986800662D9E /* Main.storyboard */,
+				CAEB02501C1D986800662D9E /* Assets.xcassets */,
+				CAEB02521C1D986800662D9E /* LaunchScreen.storyboard */,
+				CAEB02551C1D986800662D9E /* Info.plist */,
+			);
+			path = YMTabBar;
+			sourceTree = "<group>";
+		};
+		CAEB025D1C1D986800662D9E /* YMTabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAEB025E1C1D986800662D9E /* YMTabBarTests.swift */,
+				CAEB02601C1D986800662D9E /* Info.plist */,
+			);
+			path = YMTabBarTests;
+			sourceTree = "<group>";
+		};
+		CAEB02681C1D986800662D9E /* YMTabBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAEB02691C1D986800662D9E /* YMTabBarUITests.swift */,
+				CAEB026B1C1D986800662D9E /* Info.plist */,
+			);
+			path = YMTabBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAEB02451C1D986800662D9E /* YMTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEB026E1C1D986800662D9E /* Build configuration list for PBXNativeTarget "YMTabBar" */;
+			buildPhases = (
+				CAEB02421C1D986800662D9E /* Sources */,
+				CAEB02431C1D986800662D9E /* Frameworks */,
+				CAEB02441C1D986800662D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMTabBar;
+			productName = YMTabBar;
+			productReference = CAEB02461C1D986800662D9E /* YMTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAEB02591C1D986800662D9E /* YMTabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEB02711C1D986800662D9E /* Build configuration list for PBXNativeTarget "YMTabBarTests" */;
+			buildPhases = (
+				CAEB02561C1D986800662D9E /* Sources */,
+				CAEB02571C1D986800662D9E /* Frameworks */,
+				CAEB02581C1D986800662D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAEB025C1C1D986800662D9E /* PBXTargetDependency */,
+			);
+			name = YMTabBarTests;
+			productName = YMTabBarTests;
+			productReference = CAEB025A1C1D986800662D9E /* YMTabBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAEB02641C1D986800662D9E /* YMTabBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEB02741C1D986800662D9E /* Build configuration list for PBXNativeTarget "YMTabBarUITests" */;
+			buildPhases = (
+				CAEB02611C1D986800662D9E /* Sources */,
+				CAEB02621C1D986800662D9E /* Frameworks */,
+				CAEB02631C1D986800662D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAEB02671C1D986800662D9E /* PBXTargetDependency */,
+			);
+			name = YMTabBarUITests;
+			productName = YMTabBarUITests;
+			productReference = CAEB02651C1D986800662D9E /* YMTabBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAEB023E1C1D986800662D9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Barry;
+				TargetAttributes = {
+					CAEB02451C1D986800662D9E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CAEB02591C1D986800662D9E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CAEB02451C1D986800662D9E;
+					};
+					CAEB02641C1D986800662D9E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CAEB02451C1D986800662D9E;
+					};
+				};
+			};
+			buildConfigurationList = CAEB02411C1D986800662D9E /* Build configuration list for PBXProject "YMTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAEB023D1C1D986800662D9E;
+			productRefGroup = CAEB02471C1D986800662D9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAEB02451C1D986800662D9E /* YMTabBar */,
+				CAEB02591C1D986800662D9E /* YMTabBarTests */,
+				CAEB02641C1D986800662D9E /* YMTabBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAEB02441C1D986800662D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEB02541C1D986800662D9E /* LaunchScreen.storyboard in Resources */,
+				CAEB02511C1D986800662D9E /* Assets.xcassets in Resources */,
+				CAEB024F1C1D986800662D9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEB02581C1D986800662D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEB02631C1D986800662D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAEB02421C1D986800662D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEB024C1C1D986800662D9E /* ViewController.swift in Sources */,
+				CAEB024A1C1D986800662D9E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEB02561C1D986800662D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEB025F1C1D986800662D9E /* YMTabBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEB02611C1D986800662D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEB026A1C1D986800662D9E /* YMTabBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAEB025C1C1D986800662D9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAEB02451C1D986800662D9E /* YMTabBar */;
+			targetProxy = CAEB025B1C1D986800662D9E /* PBXContainerItemProxy */;
+		};
+		CAEB02671C1D986800662D9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAEB02451C1D986800662D9E /* YMTabBar */;
+			targetProxy = CAEB02661C1D986800662D9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAEB024D1C1D986800662D9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEB024E1C1D986800662D9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAEB02521C1D986800662D9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEB02531C1D986800662D9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAEB026C1C1D986800662D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAEB026D1C1D986800662D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAEB026F1C1D986800662D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YMTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Barry.YMTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAEB02701C1D986800662D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YMTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Barry.YMTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAEB02721C1D986800662D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YMTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Barry.YMTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMTabBar.app/YMTabBar";
+			};
+			name = Debug;
+		};
+		CAEB02731C1D986800662D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YMTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Barry.YMTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMTabBar.app/YMTabBar";
+			};
+			name = Release;
+		};
+		CAEB02751C1D986800662D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YMTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Barry.YMTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YMTabBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CAEB02761C1D986800662D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YMTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Barry.YMTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YMTabBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAEB02411C1D986800662D9E /* Build configuration list for PBXProject "YMTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEB026C1C1D986800662D9E /* Debug */,
+				CAEB026D1C1D986800662D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEB026E1C1D986800662D9E /* Build configuration list for PBXNativeTarget "YMTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEB026F1C1D986800662D9E /* Debug */,
+				CAEB02701C1D986800662D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAEB02711C1D986800662D9E /* Build configuration list for PBXNativeTarget "YMTabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEB02721C1D986800662D9E /* Debug */,
+				CAEB02731C1D986800662D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAEB02741C1D986800662D9E /* Build configuration list for PBXNativeTarget "YMTabBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEB02751C1D986800662D9E /* Debug */,
+				CAEB02761C1D986800662D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAEB023E1C1D986800662D9E /* Project object */;
+}
