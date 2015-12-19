@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="KYT-fe-CXM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="YMAnimatioTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.1891728694" green="1" blue="0.18085915899999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="game" selectedImage="game_hight" id="0tS-Rj-3xQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1117" y="389"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="AM8-IN-tiL">
+            <objects>
+                <viewController id="b9T-kB-hJw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xPq-xX-3YI"/>
+                        <viewControllerLayoutGuide type="bottom" id="rim-os-6pm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jdl-5E-q4G">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.17559005429999999" green="0.18699560309999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="icon_app_normal" selectedImage="icon_app_selected" id="j6R-zP-rVl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Vf-zl-t1y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1117" y="1066"/>
+        </scene>
+        <!--Tab Bar Contoller-->
+        <scene sceneID="MPK-IE-L32">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="KYT-fe-CXM" customClass="YMTabBarContoller" customModule="YMAnimatioTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="19g-hw-ddy">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="nvk-H5-c60"/>
+                        <segue destination="b9T-kB-hJw" kind="relationship" relationship="viewControllers" id="Bcr-9e-brm"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XhA-ds-D8I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="389"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="game" width="33" height="25"/>
+        <image name="game_hight" width="33" height="25"/>
+        <image name="icon_app_normal" width="33" height="25"/>
+        <image name="icon_app_selected" width="33" height="25"/>
+    </resources>
+</document>

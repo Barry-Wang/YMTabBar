@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA6955AF1C25ADF800928BF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6955AE1C25ADF800928BF6 /* AppDelegate.swift */; };
+		CA6955B11C25ADF800928BF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6955B01C25ADF800928BF6 /* ViewController.swift */; };
+		CA6955B41C25ADF800928BF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6955B21C25ADF800928BF6 /* Main.storyboard */; };
+		CA6955B61C25ADF800928BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6955B51C25ADF800928BF6 /* Assets.xcassets */; };
+		CA6955B91C25ADF800928BF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6955B71C25ADF800928BF6 /* LaunchScreen.storyboard */; };
+		CA6955C41C25ADF800928BF6 /* YMAnimatioTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6955C31C25ADF800928BF6 /* YMAnimatioTabBarTests.swift */; };
+		CA6955CF1C25ADF800928BF6 /* YMAnimatioTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6955CE1C25ADF800928BF6 /* YMAnimatioTabBarUITests.swift */; };
+		CA6955DD1C25AF1F00928BF6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6955DC1C25AF1F00928BF6 /* Images.xcassets */; };
+		CA6955DF1C25B0A400928BF6 /* YMTabBarContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6955DE1C25B0A400928BF6 /* YMTabBarContoller.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA6955C01C25ADF800928BF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA6955A31C25ADF800928BF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA6955AA1C25ADF800928BF6;
+			remoteInfo = YMAnimatioTabBar;
+		};
+		CA6955CB1C25ADF800928BF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA6955A31C25ADF800928BF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA6955AA1C25ADF800928BF6;
+			remoteInfo = YMAnimatioTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA6955AB1C25ADF800928BF6 /* YMAnimatioTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMAnimatioTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6955AE1C25ADF800928BF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA6955B01C25ADF800928BF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA6955B31C25ADF800928BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA6955B51C25ADF800928BF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA6955B81C25ADF800928BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA6955BA1C25ADF800928BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6955BF1C25ADF800928BF6 /* YMAnimatioTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMAnimatioTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6955C31C25ADF800928BF6 /* YMAnimatioTabBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMAnimatioTabBarTests.swift; sourceTree = "<group>"; };
+		CA6955C51C25ADF800928BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6955CA1C25ADF800928BF6 /* YMAnimatioTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMAnimatioTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6955CE1C25ADF800928BF6 /* YMAnimatioTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMAnimatioTabBarUITests.swift; sourceTree = "<group>"; };
+		CA6955D01C25ADF900928BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6955DC1C25AF1F00928BF6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CA6955DE1C25B0A400928BF6 /* YMTabBarContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMTabBarContoller.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA6955A81C25ADF800928BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6955BC1C25ADF800928BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6955C71C25ADF800928BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA6955A21C25ADF800928BF6 = {
+			isa = PBXGroup;
+			children = (
+				CA6955AD1C25ADF800928BF6 /* YMAnimatioTabBar */,
+				CA6955C21C25ADF800928BF6 /* YMAnimatioTabBarTests */,
+				CA6955CD1C25ADF800928BF6 /* YMAnimatioTabBarUITests */,
+				CA6955AC1C25ADF800928BF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA6955AC1C25ADF800928BF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA6955AB1C25ADF800928BF6 /* YMAnimatioTabBar.app */,
+				CA6955BF1C25ADF800928BF6 /* YMAnimatioTabBarTests.xctest */,
+				CA6955CA1C25ADF800928BF6 /* YMAnimatioTabBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA6955AD1C25ADF800928BF6 /* YMAnimatioTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CA6955DE1C25B0A400928BF6 /* YMTabBarContoller.swift */,
+				CA6955AE1C25ADF800928BF6 /* AppDelegate.swift */,
+				CA6955B01C25ADF800928BF6 /* ViewController.swift */,
+				CA6955B21C25ADF800928BF6 /* Main.storyboard */,
+				CA6955B51C25ADF800928BF6 /* Assets.xcassets */,
+				CA6955B71C25ADF800928BF6 /* LaunchScreen.storyboard */,
+				CA6955BA1C25ADF800928BF6 /* Info.plist */,
+				CA6955DC1C25AF1F00928BF6 /* Images.xcassets */,
+			);
+			path = YMAnimatioTabBar;
+			sourceTree = "<group>";
+		};
+		CA6955C21C25ADF800928BF6 /* YMAnimatioTabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA6955C31C25ADF800928BF6 /* YMAnimatioTabBarTests.swift */,
+				CA6955C51C25ADF800928BF6 /* Info.plist */,
+			);
+			path = YMAnimatioTabBarTests;
+			sourceTree = "<group>";
+		};
+		CA6955CD1C25ADF800928BF6 /* YMAnimatioTabBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA6955CE1C25ADF800928BF6 /* YMAnimatioTabBarUITests.swift */,
+				CA6955D01C25ADF900928BF6 /* Info.plist */,
+			);
+			path = YMAnimatioTabBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA6955AA1C25ADF800928BF6 /* YMAnimatioTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6955D31C25ADF900928BF6 /* Build configuration list for PBXNativeTarget "YMAnimatioTabBar" */;
+			buildPhases = (
+				CA6955A71C25ADF800928BF6 /* Sources */,
+				CA6955A81C25ADF800928BF6 /* Frameworks */,
+				CA6955A91C25ADF800928BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMAnimatioTabBar;
+			productName = YMAnimatioTabBar;
+			productReference = CA6955AB1C25ADF800928BF6 /* YMAnimatioTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA6955BE1C25ADF800928BF6 /* YMAnimatioTabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6955D61C25ADF900928BF6 /* Build configuration list for PBXNativeTarget "YMAnimatioTabBarTests" */;
+			buildPhases = (
+				CA6955BB1C25ADF800928BF6 /* Sources */,
+				CA6955BC1C25ADF800928BF6 /* Frameworks */,
+				CA6955BD1C25ADF800928BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA6955C11C25ADF800928BF6 /* PBXTargetDependency */,
+			);
+			name = YMAnimatioTabBarTests;
+			productName = YMAnimatioTabBarTests;
+			productReference = CA6955BF1C25ADF800928BF6 /* YMAnimatioTabBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA6955C91C25ADF800928BF6 /* YMAnimatioTabBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6955D91C25ADF900928BF6 /* Build configuration list for PBXNativeTarget "YMAnimatioTabBarUITests" */;
+			buildPhases = (
+				CA6955C61C25ADF800928BF6 /* Sources */,
+				CA6955C71C25ADF800928BF6 /* Frameworks */,
+				CA6955C81C25ADF800928BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA6955CC1C25ADF800928BF6 /* PBXTargetDependency */,
+			);
+			name = YMAnimatioTabBarUITests;
+			productName = YMAnimatioTabBarUITests;
+			productReference = CA6955CA1C25ADF800928BF6 /* YMAnimatioTabBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA6955A31C25ADF800928BF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Barry;
+				TargetAttributes = {
+					CA6955AA1C25ADF800928BF6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CA6955BE1C25ADF800928BF6 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CA6955AA1C25ADF800928BF6;
+					};
+					CA6955C91C25ADF800928BF6 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CA6955AA1C25ADF800928BF6;
+					};
+				};
+			};
+			buildConfigurationList = CA6955A61C25ADF800928BF6 /* Build configuration list for PBXProject "YMAnimatioTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA6955A21C25ADF800928BF6;
+			productRefGroup = CA6955AC1C25ADF800928BF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA6955AA1C25ADF800928BF6 /* YMAnimatioTabBar */,
+				CA6955BE1C25ADF800928BF6 /* YMAnimatioTabBarTests */,
+				CA6955C91C25ADF800928BF6 /* YMAnimatioTabBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA6955A91C25ADF800928BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6955B91C25ADF800928BF6 /* LaunchScreen.storyboard in Resources */,
+				CA6955DD1C25AF1F00928BF6 /* Images.xcassets in Resources */,
+				CA6955B61C25ADF800928BF6 /* Assets.xcassets in Resources */,
+				CA6955B41C25ADF800928BF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6955BD1C25ADF800928BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6955C81C25ADF800928BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA6955A71C25ADF800928BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6955DF1C25B0A400928BF6 /* YMTabBarContoller.swift in Sources */,
+				CA6955B11C25ADF800928BF6 /* ViewController.swift in Sources */,
+				CA6955AF1C25ADF800928BF6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6955BB1C25ADF800928BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6955C41C25ADF800928BF6 /* YMAnimatioTabBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6955C61C25ADF800928BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6955CF1C25ADF800928BF6 /* YMAnimatioTabBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA6955C11C25ADF800928BF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA6955AA1C25ADF800928BF6 /* YMAnimatioTabBar */;
+			targetProxy = CA6955C01C25ADF800928BF6 /* PBXContainerItemProxy */;
+		};
+		CA6955CC1C25ADF800928BF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA6955AA1C25ADF800928BF6 /* YMAnimatioTabBar */;
+			targetProxy = CA6955CB1C25ADF800928BF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA6955B21C25ADF800928BF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA6955B31C25ADF800928BF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA6955B71C25ADF800928BF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA6955B81C25ADF800928BF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA6955D11C25ADF900928BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA6955D21C25ADF900928BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA6955D41C25ADF900928BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YMAnimatioTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Barry.YMAnimatioTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA6955D51C25ADF900928BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YMAnimatioTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Barry.YMAnimatioTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA6955D71C25ADF900928BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YMAnimatioTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Barry.YMAnimatioTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMAnimatioTabBar.app/YMAnimatioTabBar";
+			};
+			name = Debug;
+		};
+		CA6955D81C25ADF900928BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YMAnimatioTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Barry.YMAnimatioTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMAnimatioTabBar.app/YMAnimatioTabBar";
+			};
+			name = Release;
+		};
+		CA6955DA1C25ADF900928BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YMAnimatioTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Barry.YMAnimatioTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YMAnimatioTabBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CA6955DB1C25ADF900928BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YMAnimatioTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Barry.YMAnimatioTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YMAnimatioTabBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA6955A61C25ADF800928BF6 /* Build configuration list for PBXProject "YMAnimatioTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6955D11C25ADF900928BF6 /* Debug */,
+				CA6955D21C25ADF900928BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6955D31C25ADF900928BF6 /* Build configuration list for PBXNativeTarget "YMAnimatioTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6955D41C25ADF900928BF6 /* Debug */,
+				CA6955D51C25ADF900928BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA6955D61C25ADF900928BF6 /* Build configuration list for PBXNativeTarget "YMAnimatioTabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6955D71C25ADF900928BF6 /* Debug */,
+				CA6955D81C25ADF900928BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA6955D91C25ADF900928BF6 /* Build configuration list for PBXNativeTarget "YMAnimatioTabBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6955DA1C25ADF900928BF6 /* Debug */,
+				CA6955DB1C25ADF900928BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA6955A31C25ADF800928BF6 /* Project object */;
+}
